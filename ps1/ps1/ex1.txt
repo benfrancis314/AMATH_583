@@ -1,0 +1,41 @@
+1. What is the host name of the computer as reported by your linux environment? 
+(You will need to find the right Linux command to execute for this. I suggest searching the web.)
+
+I used $ echo $HOSTNAME to get: 
+Bens-MacBook-Pro.local
+Source: SuperUser.com, https://superuser.com/questions/132489/hostname-environment-variable-on-linux
+
+2. How would you specify the name of an output file when you use the compiler if 
+you wanted the executable to have a name other than a.out?
+
+c++ -o alternative_name hello.cpp
+(notice this works even without the .out extension name)
+
+3. What happens if you type
+$ a.out
+instead of
+$ ./a.out
+to run your program? What is the difference (operationally) between the two statements?
+
+If you type "a.out", it thinks you mean a command, and so bash responds: 
+bash: a.out: command not found
+However, if you type "./a.out", then the "." means the current directory, 
+and the "/a.out" is the path to the file in the directory, so it knows you want to
+run the file a.out, which is indeed what we want. 
+
+4. What does clang print when you run
+$ c++ --version
+
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+5. In the example program, the i and N variables are said to be size_t. What is a size_t?
+
+An unsigned integral data type, the result of the sizeof operator. 
+So size_t N = 1024 gives an unsigned integer type big enough to fit 1024. 
+Can be as big as the host system can handle, so is useful for portability. 
+Sources: 
+CPlusPlus.com: http://www.cplusplus.com/reference/cstring/size_t/
+GeeksForGreeks.com: https://www.geeksforgeeks.org/size_t-data-type-c-language/

@@ -1,0 +1,66 @@
+#================================================================
+# slurm-259708.out
+
+# Face size 55 x 45
+# Reading /gscratch/niac/amath583sp21/data/celebA/celebA_gray_lowres.262781_55_45_32.bin
+# elapsed time [read_file]: 14 ms
+# elapsed time [compute_mean]: 1 ms
+# elapsed time [compute_shifted]: 0 ms
+# elapsed time [compute_covariance]: 7937 ms
+# Gflops/s = 0.771781
+# elapsed time [compute_svd]: 10259 ms
+
+
+#================================================================
+# slurm-259710.out
+
+# Face size 55 x 45
+# Reading /gscratch/niac/amath583sp21/data/celebA/celebA_gray_lowres.262781_55_45_32.bin
+# elapsed time [read_file]: 7 ms
+# elapsed time [compute_mean]: 1 ms
+# elapsed time [compute_shifted]: 0 ms
+# elapsed time [compute_covariance]: 2584 ms
+# Gflops/s = 2.3706
+# elapsed time [compute_svd]: 9806 ms
+
+
+#================================================================
+# slurm-259712.out
+
+# Face size 55 x 45
+# Reading /gscratch/niac/amath583sp21/data/celebA/celebA_gray_lowres.262781_55_45_32.bin
+# elapsed time [read_file]: 27 ms
+# elapsed time [compute_mean]: 0 ms
+# elapsed time [compute_shifted]: 0 ms
+# elapsed time [compute_covariance]: 275 ms
+# Gflops/s = 22.275
+# elapsed time [compute_svd]: 1964 ms
+
+
+#================================================================
+# slurm-259714.out
+
+# Face size 55 x 45
+# elapsed time [read_file]: 11 ms
+# elapsed time [scattering]: 4 ms
+# elapsed time [compute_mean]: 12 ms
+# elapsed time [compute_shifted]: 0 ms
+# elapsed time [reduce]: 156 ms
+# elapsed time [compute_covariance]: 1391 ms
+# Gflops/s = 4.40376
+# elapsed time [compute_svd]: 7662 ms
+
+
+#================================================================
+# slurm-259716.out
+
+# Face size 55 x 45
+# Reading /gscratch/niac/amath583sp21/data/celebA/celebA_gray_lowres.262781_55_45_32.bin
+# elapsed time [read_file]: 6 ms
+# elapsed time [compute_mean]: 0 ms
+# elapsed time [compute_shifted]: 0 ms
+# elapsed time [compute_covariance]: 11712 ms
+# Gflops/s = 0.523021
+# elapsed time [compute_svd]: 1586 ms
+
+

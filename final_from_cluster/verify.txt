@@ -1,0 +1,8 @@
+time	gflops/s
+7937	0.771781
+2584	2.3706
+275	22.275
+1391	4.40376
+Files u_seq_0_500_55_45.bmp and u_mpi_0_500_55_45.bmp differ
+Files u_seq_7_500_55_45.bmp and u_mpi_7_500_55_45.bmp differ
+11712	0.523021

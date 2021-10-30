@@ -1,0 +1,26 @@
+#================================================================
+# slurm-259672.out
+
+# Face size 55 x 45
+# elapsed time [read_file]: 2985 ms
+# elapsed time [scattering]: 2049 ms
+# elapsed time [compute_mean]: 73 ms
+# elapsed time [compute_shifted]: 57 ms
+# elapsed time [reduce]: 291 ms
+# elapsed time [compute_covariance]: 6825 ms
+# Gflops/s = 471.706
+
+
+#================================================================
+# slurm-259682.out
+
+# Face size 55 x 45
+# elapsed time [read_file]: 4365 ms
+# elapsed time [scattering]: 2049 ms
+# elapsed time [compute_mean]: 71 ms
+# elapsed time [compute_shifted]: 53 ms
+# elapsed time [reduce]: 1642 ms
+# elapsed time [compute_covariance]: 7058 ms
+# Gflops/s = 456.134
+
+
